@@ -1,0 +1,36 @@
+{
+  "name": "furkandogruer/yii2-takimlar",
+  "description": "Yii2 Takimlar Module",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "furkandogruer",
+      "email": "furkandogruer@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "yiisoft/yii2": "~2.0.13"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.*.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "furkandogruer\\takimlar\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "furkandogruer\\takimlar\\tests\\": "tests"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
