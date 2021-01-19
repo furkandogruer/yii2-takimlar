@@ -6,7 +6,7 @@ php yii migrate -migrationPath= @vendor/furkandogruer/console/migrations
 Futbol takımları ve maç sonuçları modülü
 
 # Hakkında
-Bu modül aracılığıyla kiralama oluşturulabilir.
+Bu modül aracılığıyla futbol takımlarının tablo sıralamaları ve maç sonuçları tutulmaktadır.
 
 # Kurulum
 
@@ -45,7 +45,7 @@ ssh bağlantısı ile vagrant üzerinde proje ana dizinindeyken alttaki komut ç
  Modülü test etmek için tarayıcınızda 
 
 ```
-    http://alanadi/frontend/web/index.php?r=movie
+    http://alanadi/frontend/web/index.php?r=takimlar
 ```
  adresine gidiniz. Modül anasayfasını karşınızda göreceksiniz.
 
