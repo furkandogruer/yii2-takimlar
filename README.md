@@ -21,7 +21,7 @@ PHP 7 sürümlerinden birini gerektirir. Tüm modüllerin düzgün kurulması i�
 php requirements.php
 php init
 ```
-
+daha sonra
 ```
  composer require --prefer-dist furkandogruer/yii2-takimlar "dev-main"
  ```
