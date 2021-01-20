@@ -26,7 +26,7 @@ daha sonra
  composer require --prefer-dist furkandogruer/yii2-takimlar "dev-main"
  ```
 
- komutu ile packagist üzerinden modül kurulumunu gerçekleştiriniz.
+ komutu ile packagist üzerinden modül kurulumunu gerçekleştiriniz. ( packagist linki: https://packagist.org/packages/furkandogruer/yii2-takimlar )
  
     
 Daha sonrasında yii projenizin ana dizininde backend\config\main.php dosyasını düzenlemek için açınız. Aşağıda gösterildiği şekilde düzenlemeyi yapınız.
