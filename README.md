@@ -27,6 +27,7 @@ daha sonra
  ```
 
  komutu ile packagist üzerinden modül kurulumunu gerçekleştiriniz.
+ 
     
 Daha sonrasında yii projenizin ana dizininde backend\config\main.php dosyasını düzenlemek için açınız. Aşağıda gösterildiği şekilde düzenlemeyi yapınız.
 
@@ -40,11 +41,6 @@ Daha sonrasında yii projenizin ana dizininde backend\config\main.php dosyasın�
 
 
 Modülün çalışabilmesi için son olarak migration işleminin gerçekleştirilmesi gereklidir.
-
-Projede tanımlı isme sahip bir veritabanınız olduğunu doğrulayın ve daha sonra aşağıdaki komutla projenizin ana tablolarını yükleyin:
-
-
-ssh bağlantısı ile vagrant üzerinde kurmuş olduğunuz makinenin proje ana dizinindeyken alttaki komutlar çalıştırılmalıdır.
 
 Projede tanımlı isme sahip bir veritabanınız olduğunu doğrulayın ve daha sonra aşağıdaki komutla projenizin ana tablolarını yükleyin:
 
@@ -87,5 +83,13 @@ Modül içerisindeki migration dosyasında modül içerisinde kullanılacak 2 ad
 # Modülün "Sonuçlar" sayfası aşağıdaki gibidir.
 
 ![](images/sonuclar.png)
+
+
+
+# Create fonksiyonları aşağıdaki gibi çalışmaktadır
+
+![](images/create.png)
+
+![](images/create2.png)
 
 
