@@ -38,10 +38,20 @@ Daha sonrasında yii projenizin ana dizininde backend\config\main.php dosyasın�
     ],
  ```
 
+
 Modülün çalışabilmesi için son olarak migration işleminin gerçekleştirilmesi gereklidir.
 
-ssh bağlantısı ile vagrant üzerinde kurmuş olduğunuz makinenin proje ana dizinindeyken alttaki komut çalıştırılmalıdır.
+Projede tanımlı isme sahip bir veritabanınız olduğunu doğrulayın ve daha sonra aşağıdaki komutla projenizin ana tablolarını yükleyin:
 
+
+ssh bağlantısı ile vagrant üzerinde kurmuş olduğunuz makinenin proje ana dizinindeyken alttaki komutlar çalıştırılmalıdır.
+
+Projede tanımlı isme sahip bir veritabanınız olduğunu doğrulayın ve daha sonra aşağıdaki komutla projenizin ana tablolarını yükleyin:
+
+```
+php yii migrate
+ ```
+daha sonra aşağıdaki komut ile modülde bulunan veritabanının ana tablolarının migration işlemi tamamlanmış olacak.
 ```
     php yii migrate/up --migrationPath=@vendor/furkandogruer/yii2-takımlar/src/console/migrations
  ```
