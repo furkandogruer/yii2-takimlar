@@ -14,6 +14,7 @@ Bu modül aracılığıyla futbol takımlarının tablo sıralamaları ve maç s
 Modül kurulumu vagrant ve yii2-advanced template'i üzerinden anlatılacaktır. Modül kurulumu için öncelikle vagrant üzerinde çalışan yii2-advanced kurulumunu gerçekleştiriniz.
 
 ssh veya vagrant ssh ile vagrant üzerinde yii projenizin ana dizinine gidiniz.(Örneğin /var/www/advanced)
+(Örnek ssh bağlantısı: "ssh -i .\.vagrant\machines\makineAdi\virtualbox\private_key vagrant@advanced" )
 
 PHP 7 sürümlerinden birini gerektirir. Tüm modüllerin düzgün kurulması için advanced projesi kurulumundan sonra önce şu iki komutla proje başlatılmalıdır:
 
@@ -62,6 +63,8 @@ ssh bağlantısı ile vagrant üzerinde kurmuş olduğunuz makinenin proje ana d
 ## Migrations
 
 Modül içerisindeki migration dosyasında modül içerisinde kullanılacak 2 adet tablo oluşturulmuştur. Tablolar arasında foreign key ile ilişki kurulmuştur ve anahtar değerler için indekslemeler yapılmıştır. Takımlar ve Sonuçlar için 2 adet tablo bulunmaktadır. Tablolar arasındaki ilişki aşağıda gösterildiği şekildedir. 1 adet foreign key kullanılmıştır.
+
+
 
 
 
