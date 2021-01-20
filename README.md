@@ -66,6 +66,16 @@ ssh bağlantısı ile vagrant üzerinde kurmuş olduğunuz makinenin proje ana d
 Modül içerisindeki migration dosyasında modül içerisinde kullanılacak 2 adet tablo oluşturulmuştur. Tablolar arasında foreign key ile ilişki kurulmuştur ve anahtar değerler için indekslemeler yapılmıştır. Takımlar ve Sonuçlar için 2 adet tablo bulunmaktadır. Tablolar arasındaki ilişki aşağıda gösterildiği şekildedir. 1 adet foreign key kullanılmıştır.
 
 
+![](images/relation.png)
 
+
+# Modülün "Takımlar" sayfası aşağıdaki gibidir.
+
+![](images/takimlar.png)
+
+
+# Modülün "Sonuçlar" sayfası aşağıdaki gibidir.
+
+![](images/sonuclar.png)
 
 
