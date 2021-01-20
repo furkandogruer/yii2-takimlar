@@ -17,9 +17,10 @@ ssh veya vagrant ssh ile vagrant üzerinde yii projenizin ana dizinine gidiniz.(
 (Örnek ssh bağlantısı: "ssh -i .\.vagrant\machines\makineAdi\virtualbox\private_key vagrant@advanced" )
 
 PHP 7 sürümlerinden birini gerektirir. Tüm modüllerin düzgün kurulması için advanced projesi kurulumundan sonra önce şu iki komutla proje başlatılmalıdır:
-
+```
 php requirements.php
 php init
+```
 
 ```
  composer require --prefer-dist furkandogruer/yii2-takimlar "dev-main"
